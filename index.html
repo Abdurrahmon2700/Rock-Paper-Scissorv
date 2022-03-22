@@ -1,0 +1,43 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+	<title>Rock Paper Scissor</title>
+</head>
+<body>
+	<section class="game">
+		<div class="title">Rock Paper Scissor</div>
+		<div class="score">
+			<div class="playerScore">
+				<h2 class="progres">Your score</h2>
+				<p class="p-count count progress">0</p>
+			</div>	
+			<div class="computerScore">
+				<h2 class="progres">Computer</h2>
+				<p class="c-count count progress">0</p>
+			</div>
+		</div>
+		<div class="move">Choose your move</div>
+		<div class="movesleft">Moves Left: 5 </div>
+		<div class="options">
+			<button class="rock">Rock 
+        <div class="box__img"><img class="img__finger" src="img/finger1.svg" alt=""></div>
+      </button>
+			<button class="paper">Paper 
+        <div class="box__img"><img class="img__finger" src="img/finger.svg" alt=""></div>
+      </button>
+			<button class="scissor">Scissors 
+        <div class="box__img"><img class="img__finger" src="img/musht.svg" alt=""></div>
+      </button>
+		</div>
+		<div class="result"></div>
+		<button class="reload"></button>
+	</section>
+	<script src="main.js"></script>
+</body>
+</html>
